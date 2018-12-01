@@ -1,0 +1,158 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+
+}
+body{
+	font-size: 15px;
+	font-family: 'Handlee', cursive;
+	background-color: #3fb6b2;
+	padding: 10px;
+	margin: 0px;
+}
+
+.menu{
+	padding-top: 40px;
+
+}
+
+.menu > li{
+	display: inline-block;
+	font-weight: bold;
+	background-color: #fff;
+	position: relative;
+
+}
+.menu  li:hover{
+ cursor: pointer;
+ background-color:#3fb6b2; 
+
+}
+
+
+
+#dropdown{
+	display: none;
+	position: absolute;
+	width: 100%;
+	background-color: #fff;
+    text-align: center;
+    z-index: 1;
+    left: 0;
+    top: 100%;
+
+}
+#dropdown li{
+	padding : 10px 15px;
+	list-style: none;
+	
+
+}
+
+#dropdown.active{
+	display: block; 
+
+}
+
+
+h1{
+	font-size: 15px;
+	color: #20bcd5;
+	text-align: center;
+	padding: 18px 0px 18px 0;
+	margin: 0 0 10px 0;
+
+}
+
+h1 span{
+	border: 4px dashed #20bcd5;
+	padding: 10px;
+
+}
+
+
+.logo{
+
+	width: 200px;
+	height: 100px;	
+	border-radius: 15%;
+}
+.image{
+	height: 100px;
+	float:left; 
+}
+
+
+.header{ 	
+	height: 100px;
+    background-color: #fff;
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	margin-right: 50px;
+	margin-left: 50px;
+	background-color: lightgrey;
+}
+
+a{
+    
+	margin-right: 30px;
+	margin-left: 40px;
+	border-bottom: none !important;
+
+}
+
+.section{
+	background-color: #fff;
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	margin-right: 50px;
+	margin-left: 50px;
+
+}
+	
+
+
+form{
+	text-align: center;
+	margin-top: 0;
+}
+
+.submit{
+	background-color: #3fb6b2;
+	padding: 12px 45px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	font-weight: bold;
+
+}
+textarea{
+	height: 100px;
+
+}
+input, textarea{
+	margin-bottom: 10px;
+	font-size: 11pt;
+	padding: 15px 10px 10px;
+	border: 1px solid #cecece;
+	color: #787575;
+	width: 70%;
+	outline: none;
+	
+}
+
+.footer{
+
+	background-color: #fff;
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+

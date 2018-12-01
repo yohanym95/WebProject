@@ -1,0 +1,51 @@
+#Container{
+	height: 500px;
+	width: 700px; 
+	margin: 20px auto;
+	position: relative;
+	background-color: white;
+
+}
+#imge{
+	height: 500PX;
+	width: 700PX;
+	position: absolute;
+	border-radius: 10px;
+}  
+
+#leftHolder {
+	height: 450px;
+	width: 100px;
+	position: absolute;
+    left: 0px;
+	top: 0px;
+
+
+}
+
+#rightHolder{
+    height: 450px;
+	width: 100px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+} 
+
+#left{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 40%;
+	left: 0px;
+	margin-left: 20px;
+}
+
+#right{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 40%;
+	right: 0px;
+}
+
